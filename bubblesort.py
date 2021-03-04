@@ -33,9 +33,9 @@ def countSwaps(a):
 
 
 # Calling internally
-countSwaps([3,2,1]) # Expect 3 swaps
-countSwaps([1,2,3]) # Expect 0 swaps
-countSwaps([6,4,1]) # Expect 3 swaps
+#countSwaps([3,2,1]) # Expect 3 swaps
+#countSwaps([1,2,3]) # Expect 0 swaps
+#countSwaps([6,4,1]) # Expect 3 swaps
 
 
 # Calling externally 

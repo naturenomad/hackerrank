@@ -32,3 +32,31 @@ b=list(map(int, input().split()))
 
 results=product(a,b)
 print(*results)
+
+
+####################################
+###### ITERTOOLS.PERMUTATIONS() ####
+####################################
+
+# Given a string, print all possible permutations of size k of the string in lexicographic sorted order.
+
+from itertools import permutations
+
+# From input
+string, count =input().split()
+
+
+# Alternative test data
+#string = "HACK"
+#count=2
+
+perms = sorted(list(permutations(string, int(count))))
+
+for i in perms:
+    seq=''
+    for j in i:
+        seq+=j
+    print(seq)
+
+
+

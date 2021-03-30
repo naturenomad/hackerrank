@@ -71,5 +71,28 @@ grep -iv a countries
 
 
 
+########## CONCATENATE AN ARRAY WITH ITSELF ###################
 
+# Given a list of countries, each on a new line, read them into an array. 
+# Then, concatenate the array with itself (twice) - so there a total of three repetitions of the original array - 
+# and then display the entire concatenated array, with a space between each of the countries' names.
+
+#!/bin/bash
+
+readarray -t countries
+
+countries=( "${countries[@]}" "${countries[@]}" "${countries[@]}" )
+
+echo "${countries[@]}"
+
+
+########## DISPLAY AN ELEMENT OF AN ARRAY ###################
+
+# Given a list of countries, each on a new line, read them into an array and then display the element indexed at 3.
+
+#!/usr/bin/env bash
+
+readarray -t countries
+
+echo "${countries[3]}"
 

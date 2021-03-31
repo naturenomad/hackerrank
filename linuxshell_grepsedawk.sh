@@ -4,6 +4,27 @@
 ############# GREP SED AWK ##################
 #############################################
 
+### Awk - 1 ###
+
+# Given a file with four space separated columns containing the scores of students in three subjects. 
+# The first column contains a single character (A-Z), the student identifier. 
+# The next three columns have three numbers each. The numbers are between 0 and 100, both inclusive. 
+# These numbers denote the scores of the students in English, Mathematics, and Science, respectively.
+
+# Task is to identify those lines that do not contain all three scores for students. 
+
+# For each student, if one or more of the three scores is missing, display:
+# Not all scores are available for [Identifier]
+
+#!/usr/bin/env bash
+
+awk '{
+    if ($2=="" || $3=="" || $4=="")
+    printf "Not all scores are available for "$1"\n"
+}' # bash1.txt
+
+
+
 ########## AWK - 3 ###################
 
 # There are a lot of quick tricks which may be accomplished with the 'awk' interpreter. 
@@ -160,3 +181,32 @@ sed -e 's/\<thy\>/your/Ig' # I works only on GNU Linux
  sed -e s/thy/{\&}/Ig # bash.txt | grep '{'
  
 
+
+########## SED COMMAND #4 ###################
+
+# Task
+
+# Given lines of credit card numbers, mask the first digits of each credit card number with an asterisk (i.e., *) 
+# and print the masked card number on a new line. 
+# Each credit card number consists of four space-separated groups of four digits. 
+# For example, the credit card number 1234 5678 9101 1234 would be masked and printed as **** **** **** 1234.
+
+# Building this up :
+
+cat bash.txt | sed -e s/[0-9]/*/1
+# *234 5678 9101 1234
+
+cat bash.txt | sed -re 's/[0-9]{4}/****/1'
+**** 5678 9101 1234
+# -r : option removes the usage of backslash for escaping of opening '(' or '{' and '}' or ')' closing brackets
+# NOTE : -r has to come before -e
+
+cat bash.txt | sed -re 's/[0-9]{4}/****/1' | sed -re 's/[0-9]{4}/****/1' | sed -re 's/[0-9]{4}/****/1'
+
+# For Hackerrank :
+
+sed -re 's/[0-9]{4}/****/1' | sed -re 's/[0-9]{4}/****/1' | sed -re 's/[0-9]{4}/****/1'
+
+
+# Also works -
+cat bash.txt | rev | sed 's/[0-9]/*/g5' | rev

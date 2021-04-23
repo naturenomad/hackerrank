@@ -1,4 +1,6 @@
 
+# https://www.hackerrank.com/challenges/find-a-string/problem
+
 #Returns number of times a substring occurs in a string :
 def count_substring(string, sub_string):
     counter = 0

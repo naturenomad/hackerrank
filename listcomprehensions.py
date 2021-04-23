@@ -1,3 +1,6 @@
+
+# https://www.hackerrank.com/challenges/list-comprehensions/problem
+
 # LIST COMPREHENSIONS
 
 # Given three integers representing the dimensions of a cuboid along with an integer n, print a list of all possible coordinates given by (i,j,k) on a 3D grid where the sum of i+j+k is not equal to n.

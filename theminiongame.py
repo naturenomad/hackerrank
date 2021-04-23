@@ -1,9 +1,11 @@
-#THE MINION GAME (Medium, 40 points) :
 
-#Who can make the most substrings out of provided string. Stuart's start with consonent, Kevin's start with vowel.
+# https://www.hackerrank.com/challenges/the-minion-game/problem
+
+# THE MINION GAME (Medium, 40 points) :
+
+# Who can make the most substrings out of provided string. Stuart's start with consonent, Kevin's start with vowel.
 
 def minion_game(string):
-    # your code goes here
     kevin = 0
     stuart = 0
     for i in range(len(string)):
@@ -19,10 +21,10 @@ def minion_game(string):
         print('Draw')
 
 
-#Calling internally:
-#minion_game('banana')
+# Calling internally:
+# minion_game('banana')
 
-#Calling externally:
+# Calling externally:
 if __name__ == '__main__':
     s = input()
     minion_game(s)

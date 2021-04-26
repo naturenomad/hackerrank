@@ -1,3 +1,6 @@
+
+# https://www.hackerrank.com/challenges/compare-the-triplets/problem
+
 # COMPARE THE TRIPLETS
 
 # Alice and Bob each created one problem for HackerRank. A reviewer rates the two challenges, awarding points on a 

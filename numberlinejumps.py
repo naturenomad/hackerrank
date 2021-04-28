@@ -1,3 +1,6 @@
+
+# https://www.hackerrank.com/challenges/kangaroo/problem
+
 # NUMBER LINE JUMPS
 
 # Given two kangaroos on a number line ready to jump in the positive direction.

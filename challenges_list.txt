@@ -1,0 +1,63 @@
+Problem Solving
+
+Algorithms Data Structures
+
+Solve Me First
+EasyProblem Solving (Basic)Max Score: 1Success Rate: 98.62%
+
+Simple Array Sum
+EasyProblem Solving (Basic)Max Score: 10Success Rate: 93.88%
+
+Compare the Triplets
+EasyProblem Solving (Basic)Max Score: 10Success Rate: 94.95%
+
+A Very Big Sum
+EasyProblem Solving (Basic)Max Score: 10Success Rate: 98.72%
+
+Diagonal Difference
+EasyProblem Solving (Basic)Max Score: 10Success Rate: 95.76%
+
+Plus Minus
+EasyProblem Solving (Basic)Max Score: 10Success Rate: 98.31%
+
+Staircase
+EasyProblem Solving (Basic)Max Score: 10Success Rate: 98.27%
+
+Mini-Max Sum
+EasyProblem Solving (Basic)Max Score: 10Success Rate: 93.93%
+
+Birthday Cake Candles
+EasyProblem Solving (Basic)Max Score: 10Success Rate: 96.78%
+
+Time Conversion
+EasyProblem Solving (Basic)Max Score: 15Success Rate: 91.15%
+
+Grading Students
+EasyProblem Solving (Basic)Max Score: 10Success Rate: 96.52%
+
+Number Line Jumps
+EasyProblem Solving (Basic)Max Score: 10Success Rate: 88.91%
+
+Breaking the Records
+EasyProblem Solving (Basic)Max Score: 10Success Rate: 98.41%
+
+Migratory Birds
+EasyProblem Solving (Basic)Max Score: 10Success Rate: 91.37%
+
+Bill Division
+EasyProblem Solving (Basic)Max Score: 10Success Rate: 97.87%
+
+Sales by Match
+EasyProblem Solving (Basic)Max Score: 10Success Rate: 91.84%
+
+Drawing Book
+EasyProblem Solving (Basic)Max Score: 10Success Rate: 89.59%
+
+Counting Valleys
+EasyProblem Solving (Basic)Max Score: 15Success Rate: 94.73%
+
+Electronics Shop
+EasyProblem Solving (Basic)Max Score: 15Success Rate: 91.79%
+
+The Hurdle Race
+EasyProblem Solving (Basic)Max Score: 15Success Rate: 98.82%

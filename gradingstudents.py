@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/grading/problem
+
 # GRADING STUDENTS
 
 # Every student receives a grade in the inclusive range from 0 to 100.

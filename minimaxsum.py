@@ -1,3 +1,6 @@
+
+# https://www.hackerrank.com/challenges/mini-max-sum/problem
+
 # MINI-MAX SUM
 
 # Sum first 4 and last 4 entries in array

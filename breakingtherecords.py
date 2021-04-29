@@ -1,4 +1,7 @@
-#BREAKING THE RECORDS
+
+# https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem
+
+# BREAKING THE RECORDS
 
 # From array of season's scores, calculate how many times minimum and maximum records are broken,
 # taking the first score as the first record :

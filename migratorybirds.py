@@ -1,7 +1,10 @@
-#MIGRATORY BIRDS
 
-#Given an array of bird sightings where every element represents a bird type id, determine the id of the most 
-#frequently sighted type.
+# https://www.hackerrank.com/challenges/migratory-birds/problem
+
+# MIGRATORY BIRDS
+
+# Given an array of bird sightings where every element represents a bird type id, determine the id of the most 
+# frequently sighted type.
 
 
 #!/bin/python3

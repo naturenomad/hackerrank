@@ -1,3 +1,6 @@
+
+# https://www.hackerrank.com/challenges/bon-appetit/problem
+
 # BILL DIVISION
 
 #!/bin/python3

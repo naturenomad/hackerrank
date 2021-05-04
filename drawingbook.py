@@ -1,3 +1,6 @@
+
+# https://www.hackerrank.com/challenges/drawing-book/problem
+
 # DRAWING BOOK
 
 # Book starts page 1 on rhs. Otherwise 2 pages on each page except possibly the last.

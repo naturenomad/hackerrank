@@ -1,7 +1,10 @@
-#SALES BY MATCH
 
-#There is a large pile of socks that must be paired by color. 
-#Given an array of integers representing the color of each sock, determine how many pairs of socks with matching colors there are.
+# https://www.hackerrank.com/challenges/sock-merchant/problem
+
+# SALES BY MATCH
+
+# There is a large pile of socks that must be paired by color. 
+# Given an array of integers representing the color of each sock, determine how many pairs of socks with matching colors there are.
 
 #!/bin/python3
 
@@ -27,10 +30,10 @@ def sockMerchant(n, ar):
     
     return(pairs)
 
-#Calling code for within python :
+# Calling code for within python :
 #sockMerchant(9, [10, 20, 20, 10, 10, 30, 50, 10, 20])
 
-#Calling code when calling programme externally :
+# Calling code when calling programme externally :
 if __name__ == '__main__':
     
     # fptr = open(os.environ['OUTPUT_PATH'], 'w')

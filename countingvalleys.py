@@ -1,6 +1,9 @@
-#COUNTING VALLEYS
 
-#Given the sequence of up and down steps during a hike, find and print the number of valleys walked through. 
+# https://www.hackerrank.com/challenges/counting-valleys/problem
+
+# COUNTING VALLEYS
+
+# Given the sequence of up and down steps during a hike, find and print the number of valleys walked through. 
 
 #!/bin/python3
 
@@ -20,7 +23,6 @@ import sys
 #
 
 def countingValleys(steps, path):
-    # Write your code here
     valleys=0
     height=0
     for i in path:
@@ -36,9 +38,9 @@ def countingValleys(steps, path):
     return valleys
 
 # Calling programme internally :
-# countingValleys(8,'UDDDUDUU')
-# countingValleys(8,'DDUUUUDD')
-# countingValleys(8,'DUUDDUDU')
+#countingValleys(8,'UDDDUDUU')
+#countingValleys(8,'DDUUUUDD')
+#countingValleys(8,'DUUDDUDU')
 
 # Calling programme externally :
 if __name__ == '__main__':

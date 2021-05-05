@@ -1,3 +1,6 @@
+
+# https://www.hackerrank.com/challenges/electronics-shop/problem
+
 # ELECTRONICS SHOP
 
 # A person wants to determine the most expensive computer keyboard and USB drive 

@@ -1,3 +1,6 @@
+
+# https://www.hackerrank.com/challenges/repeated-string/problem
+
 # REPEATED STRING
 
 # There is a string, s, of lowercase English letters that is repeated infinitely many times. 

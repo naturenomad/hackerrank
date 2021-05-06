@@ -1,3 +1,6 @@
+
+# https://www.hackerrank.com/challenges/strange-advertising/problem
+
 # VIRAL ADVERTISING
 
 # Product launched to 5 people on social media. Each day half (floor) like and share it with 3 of their friends.

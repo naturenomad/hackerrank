@@ -1,3 +1,6 @@
+
+# https://www.hackerrank.com/challenges/the-hurdle-race/problem
+
 # THE HURDLE RACE
 
 # How many doses of magic potion (height conferred = 1) does hurdler have to take to be able to

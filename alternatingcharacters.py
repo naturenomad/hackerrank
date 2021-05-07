@@ -1,3 +1,6 @@
+
+# https://www.hackerrank.com/challenges/alternating-characters/problem
+
 # ALTERNATING CHARACTERS
 
 # Given a string containing characters A and B

@@ -1,8 +1,13 @@
-#2D Array - DS
 
-#AKA - HOURGLASS SUM :
+# https://www.hackerrank.com/challenges/2d-array/problem?h_l=interview&playlist_slugs%5B%5D%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D%5B%5D=arrays
 
-#Given a 6x6 2D Array, return an array of the sums of each of the 16 hourglasses represented graphically as follows :
+# Interview Preparation Kit Challenge
+
+# 2D Array - DS
+
+# AKA - HOURGLASS SUM :
+
+# Given a 6x6 2D Array, return an array of the sums of each of the 16 hourglasses represented graphically as follows :
 # a b c
 #   d
 # e f g

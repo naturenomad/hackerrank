@@ -1,3 +1,6 @@
+
+# https://www.hackerrank.com/challenges/two-strings/problem
+
 # TWO STRINGS
 
 # Given two strings, determine if they share a common substring. 

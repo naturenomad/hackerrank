@@ -1,3 +1,6 @@
+
+# https://www.hackerrank.com/challenges/mark-and-toys/problem
+
 # MARK AND TOYS
 
 #  Given a list of toy prices and an amount to spend, determine the maximum number of gifts he can buy.

@@ -1,4 +1,9 @@
-# LEFT ROTATION
+
+# https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem?h_l=interview&playlist_slugs%5B%5D%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D%5B%5D=arrays
+
+# Interview Preparation Challenge
+
+# ARRAYS - LEFT ROTATION
 
 # A left rotation operation on an array shifts each of the array's elements unit to the left. 
 # Note that the lowest index item moves to the highest index in a rotation. This is called a circular array. 

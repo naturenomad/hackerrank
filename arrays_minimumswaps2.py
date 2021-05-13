@@ -1,3 +1,8 @@
+
+# https://www.hackerrank.com/challenges/minimum-swaps-2/problem?h_l=interview&playlist_slugs%5B%5D%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D%5B%5D=arrays
+
+# Interview Preparation Challenge
+
 # MINIMUM SWAPS 2
 
 # Find the minimum number of swaps required to sort the array in ascending order. 

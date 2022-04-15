@@ -1,3 +1,6 @@
+##############################################################################
+#### CATS AND A MOUSE ########################################################
+
 # https://www.hackerrank.com/challenges/cats-and-a-mouse/
 
 # Two cats and a mouse are at various positions on a line. You will be given their starting positions. Your task is to determine which cat will reach the mouse first, assuming the mouse does not move and the cats travel at equal speed. 

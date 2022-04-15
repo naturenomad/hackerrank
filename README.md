@@ -1,6 +1,5 @@
 # hackerrank
 Repository of hackerrank challenge solutions.
-Aim is to do a challenge a day, most days. These might be smaller or larger depending on time available.
 
 Format of code samples :
 1 - Solved function.

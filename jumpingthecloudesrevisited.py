@@ -4,7 +4,8 @@
 
 # https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited
 
-# A child is playing a cloud hopping game. In this game, there are sequentially numbered clouds that can be thunderheads or cumulus clouds. The character must jump from cloud to cloud until it reaches the start again. 
+# A child is playing a cloud hopping game. In this game, there are sequentially numbered clouds that can be thunderheads or cumulus clouds. 
+# The character must jump from cloud to cloud until it reaches the start again. 
 
 # Energy level e starts at 100
 # Cumulus cloud = 0

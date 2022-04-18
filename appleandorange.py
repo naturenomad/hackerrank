@@ -3,11 +3,13 @@
 
 # https://www.hackerrank.com/challenges/apple-and-orange
 
-# Sam's house has an apple tree and an orange tree that yield an abundance of fruit. Using the information given below, determine the number of apples and oranges that land on Sam's house. 
+# Sam's house has an apple tree and an orange tree that yield an abundance of fruit. Using the information given below, 
+# determine the number of apples and oranges that land on Sam's house. 
 
 # Function Description
 
-# Complete the countApplesAndOranges function in the editor below. It should print the number of apples and oranges that land on Sam's house, each on a separate line.
+# Complete the countApplesAndOranges function in the editor below. It should print the number of apples and oranges that land 
+# on Sam's house, each on a separate line.
 
 # countApplesAndOranges has the following parameter(s):
 

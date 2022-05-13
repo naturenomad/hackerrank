@@ -50,3 +50,5 @@ from station
 order by lat_n) as subq
 where subq.row_index in
 (floor(@row_index/2), ceil(@row_index/2));
+
+

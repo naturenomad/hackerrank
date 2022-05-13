@@ -1,6 +1,6 @@
 
 -- Selected SQL problems from the Hackerrank challenges.
-
+-- Flavour is MySql.
 
 -- REGEXP
 

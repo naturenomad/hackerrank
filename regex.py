@@ -1,10 +1,9 @@
 
-
-
-# Select REGEX Challenges from the Hackerrank site
+# REGEX Challenges from the Hackerrank site
 # Flavour is Python 3.
 
 
+################################################################
 # MATCHING SPECIFIC STRING
 # https://www.hackerrank.com/challenges/matching-specific-string
 
@@ -19,6 +18,7 @@ match = re.findall(Regex_Pattern, Test_String)
 print("Number of matches :", len(match))
 
 
+###########################################################################
 # MATCHING DIGITS AND NON-DIGIT CHARACTERS
 # https://www.hackerrank.com/challenges/matching-digits-non-digit-character
 
@@ -38,6 +38,7 @@ print(str(bool(re.search(Regex_Pattern, input()))).lower())
 # true
 
 
+####################################################################################
 # MATCHING WHITESPACE AND NON-WHITESPACE CHARACTERS
 # https://www.hackerrank.com/challenges/matching-whitespace-non-whitespace-character
 
@@ -54,6 +55,7 @@ Regex_Pattern = r"\S\S\s\S\S\s\S\S"
 # true
 
 
+######################################################################
 # MATCHING WORD AND NON-WORD CHARACTERS
 # https://www.hackerrank.com/challenges/matching-word-non-word/problem
 
@@ -71,6 +73,7 @@ Regex_Pattern = r"\w{3}\W\w\{10}W\w{3}"
 # true
 
 
+##################################################################
 # MATCHING START AND END
 # https://www.hackerrank.com/challenges/matching-start-end/problem
 
@@ -85,4 +88,105 @@ Regex_Pattern = r"^\d\w{4}.$"
 # Test case 
 #0qwer.
 # true
+
+
+######################################################################
+# MATCH ANYTHING BUT A NEWLINE
+# https://www.hackerrank.com/challenges/matching-anything-but-new-line
+
+# The dot (.) matches anything (except for a newline).
+
+# Write a regular expression that matches only and exactly strings of form: abc.def.ghi.jkx 
+# where each variable can be any single character except the newline.
+
+regex_pattern = r"^...\....\....\....$"	# Do not delete 'r'.
+
+import re
+import sys
+
+test_string = input()
+
+match = re.match(regex_pattern, test_string) is not None
+
+print(str(match).lower())
+
+# Test cases
+#123.456.abc.def
+# true
+
+#123.123.123.132.123.123
+# false
+
+
+#################################################
+# THE BRITISH AND AMERICAN STYLE OF SPELLING
+# https://www.hackerrank.com/challenges/uk-and-us
+
+# Given a string, and a test word with the American ending (-ze), find the number of cases of either 
+# the British or American spelling.
+
+# Input Format
+# First line contains N, N lines follow each line contains a sequence of words (W) separated by a 
+# single space. Next line contains T. T testcases follow in a new line. Each line contains the 
+# American English spelling of a word (W')
+
+# Constraints
+#
+# 1 <= N <= 10 : Each line doesn't contain more than 10 words (W)
+# Each character of W and W' is a lowercase alphabet.
+# If C is the count of the number of characters of W or W', then
+# 1 <= C <= 20
+# 1 <= T <= 10
+# W' ends with ze ( US version of the word) 
+
+# Output Format
+#
+# Output T lines and in each line output the total number of American and British versions of (W') in # all of N lines that contains a sequence of words.
+
+import re
+
+def stylesCount() :
+    # Get string
+    lines = int(input())
+    s = ""
+    for i in range(lines) :
+        s+= input() + "\n"
+    
+    # Get test word(s) and their Gbr version, put in a list : 
+    numtests = int(input())
+    tests=[]
+    for i in range(numtests) :
+        w = input()
+        tests.append([w, w[:-2] + "se"])
+        
+    # For each test word combination, count occurances
+    for i in tests :
+        n = 0
+        for j in i :
+            n+= len(re.findall(j, s))
+        print(n)
+
+# ... or more efficient alternative ...
+
+def stylesCount() :
+    # Get string
+    lines = int(input())
+    s = ""
+    for i in range(lines) :
+        s+= input() + "\n"
+    
+    # Get test word(s) and their Gbr version, put in a list : 
+    numtests = int(input())
+    tests=[]
+    for i in range(numtests) :
+        w = input()
+        print(len(re.findall(w[:-2] + '[sz]e', s)))
+
+# Test case
+stylesCount()
+2
+hackerrank has such a good ui that it takes no time to familiarise its environment
+to familiarize oneself with ui of hackerrank is easy
+1
+familiarize
 

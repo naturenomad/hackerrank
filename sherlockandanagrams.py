@@ -52,7 +52,7 @@ def sherlockAndAnagrams(s):
     return pairs
 
 
-# Version 2 - replaced a for loop with an if statement :
+# Version 2 - replaced a for loop with an if statement for speed :
 
 def sherlockAndAnagrams(s): 
     

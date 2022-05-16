@@ -190,3 +190,43 @@ to familiarize oneself with ui of hackerrank is easy
 1
 familiarize
 
+
+####################################################################
+# MATCHING SPECIFIC CHARACTERS
+# https://www.hackerrank.com/challenges/matching-specific-characters
+
+# The character class [ ] matches only one out of several characters placed inside the square 
+# brackets.
+
+Regex_Pattern = r'^[123][120][xs0][30Aa][xsu][.,]$'
+
+# Test case :
+#1203x.
+# true
+
+
+#####################################################################
+# EXCLUDING SPECIFIC CHARACTERS
+# https://www.hackerrank.com/challenges/excluding-specific-characters
+
+# The negated character class [^] matches any character that is not in the square brackets.
+
+Regex_Pattern = r'^[^0-9][^aeiou][^bcDF][^\r\n\t\f ][^AEIOU][^.,]$'
+
+# Test cases
+#think?
+# true
+
+#think??
+# false
+
+
+####################################################################
+# MATCHING CHARACTER RANGES
+# https://www.hackerrank.com/challenges/matching-range-of-characters
+
+Regex_Pattern = r'^[a-z][1-9][^a-z][^A-Z][A-Z]'
+
+# Test case
+#h4CkR
+# true

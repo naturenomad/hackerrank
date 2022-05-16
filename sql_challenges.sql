@@ -2,8 +2,8 @@
 -- Selected SQL problems from the Hackerrank challenges.
 -- Flavour is MySql.
 
--- REGEXP
 
+-- REGEXP
 -- https://www.hackerrank.com/challenges/weather-observation-station-6
 select distinct city
 from station
@@ -19,7 +19,6 @@ where not city regexp '^[aeiou]';
 
 
 -- TYPE OF TRIANGLE
-
 -- https://www.hackerrank.com/challenges/what-type-of-triangle
 
 select case
@@ -35,7 +34,6 @@ from triangles;
 
 
 -- MEDIAN VALUE
-
 -- https://www.hackerrank.com/challenges/weather-observation-station-20
 
 -- Prime row_index to start at 0
@@ -51,4 +49,46 @@ order by lat_n) as subq
 where subq.row_index in
 (floor(@row_index/2), ceil(@row_index/2));
 
+
+-- AGGREGATIONS - SUM
+-- https://www.hackerrank.com/challenges/revising-aggregations-sum
+
+-- Query total population with constraint - no call for group by here :
+select sum(population)
+from city
+where district = 'California';
+
+
+-- AGGREGATIONS - AVERAGE, AND CASTING AS INTEGER 
+-- https://www.hackerrank.com/challenges/average-population
+
+-- Mysql speciality - signed (for negatives) and unsigned integers :
+
+select cast(avg(population) as unsigned)
+from city;
+
+-- AGGREGATIONS - SUM, BETWEEN, ROUND 
+-- https://www.hackerrank.com/challenges/weather-observation-station-13
+
+select round(sum(lat_n), 4)
+from station
+where lat_n between 38.7880 and 137.2345;
+
+
+-- SELECT FIELD BASED ON ANOTHER FIELD
+-- https://www.hackerrank.com/challenges/weather-observation-station-15
+
+-- Query the Western Longitude (LONG_W) for the largest Northern Latitude (LAT_N) in STATION that is 
+-- less than 137.2345. Round your answer to 4 decimal places.
+select round(long_w,4)
+from station
+where lat_n < 137.2345
+order by lat_n desc
+limit 1;
+
+-- or alternatively :
+select round(long_w,4)
+from station
+where lat_n = (select max(lat_n) from station
+where lat_n < 137.2345);
 

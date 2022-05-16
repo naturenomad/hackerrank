@@ -92,3 +92,39 @@ from station
 where lat_n = (select max(lat_n) from station
 where lat_n < 137.2345);
 
+
+-- AVERAGE POPULATION OF EACH CONTINENT, CAST AND FLOOR
+-- https://www.hackerrank.com/challenges/average-population-of-each-continent
+
+-- Given the CITY and COUNTRY tables, query the names of all the continents (COUNTRY.Continent) and 
+-- their respective average city populations (CITY.Population) rounded down to the nearest integer.
+select country.continent, cast(avg(city.population) as signed)
+from city
+inner join country
+on city.countrycode=country.code
+group by country.continent;
+
+-- Gives wrong answer :
+-- Your Output (stdout)
+--    Asia 693038
+--    Oceania 109190
+--    Europe 175138
+--    South America 147435
+--    Africa 274439
+
+-- whereas ...
+
+select country.continent, floor(avg(city.population))
+from city
+inner join country
+on city.countrycode=country.code
+group by country.continent;
+
+-- .. Gives right answer - ie "...rounded DOWN..."
+-- Your Output (stdout)
+--    Asia 693038
+--    Oceania 109189
+--    Europe 175138
+--    South America 147435
+--    Africa 274439
+
